@@ -421,17 +421,17 @@ PrefabInstance:
     - target: {fileID: 5501632272992791464, guid: 46e0569259d9546089b904235580c58b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.029514387
+      value: 2.486
       objectReference: {fileID: 0}
     - target: {fileID: 5501632272992791464, guid: 46e0569259d9546089b904235580c58b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0014452934
+      value: 0.071
       objectReference: {fileID: 0}
     - target: {fileID: 5501632272992791464, guid: 46e0569259d9546089b904235580c58b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.9755378
+      value: -5.683
       objectReference: {fileID: 0}
     - target: {fileID: 5501632272992791464, guid: 46e0569259d9546089b904235580c58b,
         type: 3}
@@ -2341,79 +2341,6 @@ RectTransform:
   m_AnchoredPosition: {x: -283.9, y: -59.8}
   m_SizeDelta: {x: 60, y: 38}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1001 &217080741
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 91306064084566409, guid: 30832e25d451c954e9a5dcfa7f12c865,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.27925706
-      objectReference: {fileID: 0}
-    - target: {fileID: 91306064084566409, guid: 30832e25d451c954e9a5dcfa7f12c865,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.062969945
-      objectReference: {fileID: 0}
-    - target: {fileID: 91306064084566409, guid: 30832e25d451c954e9a5dcfa7f12c865,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4.1542645
-      objectReference: {fileID: 0}
-    - target: {fileID: 91306064084566409, guid: 30832e25d451c954e9a5dcfa7f12c865,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 91306064084566409, guid: 30832e25d451c954e9a5dcfa7f12c865,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 91306064084566409, guid: 30832e25d451c954e9a5dcfa7f12c865,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 91306064084566409, guid: 30832e25d451c954e9a5dcfa7f12c865,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 91306064084566409, guid: 30832e25d451c954e9a5dcfa7f12c865,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 91306064084566409, guid: 30832e25d451c954e9a5dcfa7f12c865,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 91306064084566409, guid: 30832e25d451c954e9a5dcfa7f12c865,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 724994659392805683, guid: 30832e25d451c954e9a5dcfa7f12c865,
-        type: 3}
-      propertyPath: m_Name
-      value: SamhuiRestaurant
-      objectReference: {fileID: 0}
-    - target: {fileID: 2758384304511159719, guid: 30832e25d451c954e9a5dcfa7f12c865,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 30832e25d451c954e9a5dcfa7f12c865, type: 3}
 --- !u!1001 &235660384
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29998,7 +29925,6 @@ SceneRoots:
   - {fileID: 2124398260}
   - {fileID: 1313711681}
   - {fileID: 917364512}
-  - {fileID: 217080741}
   - {fileID: 1589878703}
   - {fileID: 746521606}
   - {fileID: 987493413}
