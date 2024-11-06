@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -16,6 +17,7 @@ public class Customer : MonoBehaviour
     {
         StartCoroutine(MoveTo(targetPosition, speed));
     }
+
 
     private IEnumerator MoveTo(Vector3 targetPosition, float speed)
     {

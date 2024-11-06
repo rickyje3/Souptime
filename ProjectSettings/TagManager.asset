@@ -6,6 +6,8 @@ TagManager:
   tags:
   - SoupVat
   - Ground
+  - Orders
+  - Customer
   layers:
   - Default
   - TransparentFX
