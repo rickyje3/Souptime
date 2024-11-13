@@ -208,7 +208,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 3755574028435771981, guid: 0d0e394b011c82840a9d6d7d3542f9eb,
+          type: 3}
         m_TargetAssemblyTypeName: CustomerQueueManager, Assembly-CSharp
         m_MethodName: ServeCustomer
         m_Mode: 1
