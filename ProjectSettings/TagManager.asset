@@ -8,6 +8,9 @@ TagManager:
   - Ground
   - Orders
   - Customer
+  - Box
+  - Trail
+  - Smash
   layers:
   - Default
   - TransparentFX
@@ -29,7 +32,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Smashing
   - 
   - 
   - 
