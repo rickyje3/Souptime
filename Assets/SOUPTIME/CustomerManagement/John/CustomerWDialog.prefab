@@ -286,7 +286,17 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1629960051434971911, guid: 80904ee9a7a74114e9dff33e3b7ed163,
         type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629960051434971911, guid: 80904ee9a7a74114e9dff33e3b7ed163,
+        type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629960051434971911, guid: 80904ee9a7a74114e9dff33e3b7ed163,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1629960051434971911, guid: 80904ee9a7a74114e9dff33e3b7ed163,
@@ -296,8 +306,23 @@ PrefabInstance:
       objectReference: {fileID: 8018524734440500139}
     - target: {fileID: 1629960051434971911, guid: 80904ee9a7a74114e9dff33e3b7ed163,
         type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 956390954266602824}
+    - target: {fileID: 1629960051434971911, guid: 80904ee9a7a74114e9dff33e3b7ed163,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629960051434971911, guid: 80904ee9a7a74114e9dff33e3b7ed163,
+        type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: set_text
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629960051434971911, guid: 80904ee9a7a74114e9dff33e3b7ed163,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: TriggerUnityEvent
       objectReference: {fileID: 0}
     - target: {fileID: 1629960051434971911, guid: 80904ee9a7a74114e9dff33e3b7ed163,
         type: 3}
@@ -306,8 +331,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1629960051434971911, guid: 80904ee9a7a74114e9dff33e3b7ed163,
         type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Unity.VisualScripting.EventMachine`2[[Unity.VisualScripting.FlowGraph,
+        Unity.VisualScripting.Flow
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629960051434971911, guid: 80904ee9a7a74114e9dff33e3b7ed163,
+        type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Thank you!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629960051434971911, guid: 80904ee9a7a74114e9dff33e3b7ed163,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: CheckSoup
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629960051434971911, guid: 80904ee9a7a74114e9dff33e3b7ed163,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4213912648909449136, guid: 80904ee9a7a74114e9dff33e3b7ed163,
         type: 3}
