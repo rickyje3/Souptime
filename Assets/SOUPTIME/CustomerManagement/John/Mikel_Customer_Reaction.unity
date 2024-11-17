@@ -4506,6 +4506,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.028438326, y: 0.014839072, z: 0.032869764}
   m_Center: {x: -0.0000043397004, y: 0.007419536, z: -0.002220029}
+--- !u!114 &1469061920 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 956390954266602824, guid: b35754da0748f14448c18acbd0c21109,
+    type: 3}
+  m_PrefabInstance: {fileID: 1049952055639564626}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1511851707
 GameObject:
   m_ObjectHideFlags: 0
@@ -6197,6 +6209,47 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 920921514}
+    - target: {fileID: 4204661798304461816, guid: b35754da0748f14448c18acbd0c21109,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204661798304461816, guid: b35754da0748f14448c18acbd0c21109,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204661798304461816, guid: b35754da0748f14448c18acbd0c21109,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1469061920}
+    - target: {fileID: 4204661798304461816, guid: b35754da0748f14448c18acbd0c21109,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204661798304461816, guid: b35754da0748f14448c18acbd0c21109,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: TriggerUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204661798304461816, guid: b35754da0748f14448c18acbd0c21109,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Unity.VisualScripting.EventMachine`2[[Unity.VisualScripting.FlowGraph,
+        Unity.VisualScripting.Flow
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204661798304461816, guid: b35754da0748f14448c18acbd0c21109,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: CheckSoup
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204661798304461816, guid: b35754da0748f14448c18acbd0c21109,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

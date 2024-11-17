@@ -405,8 +405,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"XRSocket","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.XR.Interaction.Toolkit.XRSocketInteractor,
+      Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Attach","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 4204661798304461816}
+    - {fileID: 9222419620998334579}
 --- !u!114 &956390954266602824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -426,6 +430,24 @@ MonoBehaviour:
 --- !u!4 &1722241283609699827 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4260859301374850316, guid: 80904ee9a7a74114e9dff33e3b7ed163,
+    type: 3}
+  m_PrefabInstance: {fileID: 3226615446565048575}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4204661798304461816 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1629960051434971911, guid: 80904ee9a7a74114e9dff33e3b7ed163,
+    type: 3}
+  m_PrefabInstance: {fileID: 3226615446565048575}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &9222419620998334579 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5997563728860453004, guid: 80904ee9a7a74114e9dff33e3b7ed163,
     type: 3}
   m_PrefabInstance: {fileID: 3226615446565048575}
   m_PrefabAsset: {fileID: 0}
