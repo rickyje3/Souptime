@@ -10,8 +10,10 @@ public class DanteSlice : MonoBehaviour
         private void OnTriggerEnter(Collider other)
         {
             GameObject collidedObject = other.gameObject;
+            Transform collidedTransform = collidedObject.transform;
             if (collidedObject.CompareTag(targetTag))
-            {
+                {
+                
                 Debug.Log($"Collided with {collidedObject.name}, which has the tag: {targetTag}");
                 Destroy(collidedObject);
                 Instantiate(prefabToSpawn, spawnPoint.position, spawnPoint.rotation);
