@@ -11,6 +11,8 @@ TagManager:
   - Box
   - Trail
   - Smash
+  - Pot
+  - Food
   layers:
   - Default
   - TransparentFX
