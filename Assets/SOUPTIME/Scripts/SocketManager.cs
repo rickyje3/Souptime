@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -8,19 +9,24 @@ public class SocketManager : MonoBehaviour
     public Cheese cheeseScript;
     public UnityEvent allSocketsFilled; // Event to trigger when all sockets are filled
 
-    private void Update()
+    private void Start()
+    {
+        CheckIfFull();
+        
+    }
+
+    public void CheckIfFull()
     {
         if (AreAllSocketsFilled())
         {
             cheeseScript.isSocketed = true;
-            //allSocketsFilled.Invoke();
-            // Optionally, you might want to disable this check after the event has been invoked
-            // or reset the sockets.
-            //enabled = false; // Disable this script after event is triggered
+            foreach (Socket socket in sockets)
+            {
+                socket.Empty();
+            }
         }
     }
-
-    private bool AreAllSocketsFilled()
+private bool AreAllSocketsFilled()
     {
         foreach (Socket socket in sockets)
         {
