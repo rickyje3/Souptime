@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3308573344510213914}
   m_Layer: 0
   m_Name: Cheese_02
-  m_TagString: Untagged
+  m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,7 +131,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 17
+    m_Bits: 16777232
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
