@@ -151,7 +151,7 @@ GameObject:
   - component: {fileID: 8834666491929356897}
   - component: {fileID: 3777629624727964109}
   m_Layer: 0
-  m_Name: Shredded Cheese
+  m_Name: Shredded Cheese Bad
   m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
