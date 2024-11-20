@@ -23,19 +23,4 @@ public class ChangeSizeOnCollision : MonoBehaviour
         transform.localScale = newSize;
     }
 
-    private void OnCollisionExit(Collision collision)
-    {
-        // Optional: Reset the size when the objects separate
-        if (resetSizeOnExit)
-        {
-            transform.localScale = originalSize;
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        {
-            transform.localScale = originalSize;
-        }
-    }
 }
