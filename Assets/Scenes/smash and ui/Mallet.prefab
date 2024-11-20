@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4099238920891794894}
   - component: {fileID: 5121510507587717035}
   - component: {fileID: 6129987011945918892}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Mallet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 5227431909785033324}
   - component: {fileID: 1803773105633581300}
   - component: {fileID: 2604146920456418049}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 7869485239793039331}
   - component: {fileID: 4099580773136487706}
   - component: {fileID: 4863983179942774098}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
