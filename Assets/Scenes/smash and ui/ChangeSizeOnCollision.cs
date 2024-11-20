@@ -2,40 +2,24 @@ using UnityEngine;
 
 public class ChangeSizeOnCollision : MonoBehaviour
 {
-    public Vector3 newSize = new Vector3(2, 2, 2); // The size to change to
-    public bool resetSizeOnExit = false;
+    public GameObject targetObject; //mallet
+
+    public Vector3 newSize = new Vector3(2f, 2f, 2f);
+
     private Vector3 originalSize;
 
     void Start()
     {
-        // Store the original size of the object
         originalSize = transform.localScale;
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        // Change size when a collision occurs
-        transform.localScale = newSize;
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        transform.localScale = newSize;
-    }
-
-    private void OnCollisionExit(Collision collision)
-    {
-        // Optional: Reset the size when the objects separate
-        if (resetSizeOnExit)
+        if (collision.gameObject == targetObject)
         {
-            transform.localScale = originalSize;
+            transform.localScale = newSize;
         }
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        {
-            transform.localScale = originalSize;
-        }
-    }
+
 }
