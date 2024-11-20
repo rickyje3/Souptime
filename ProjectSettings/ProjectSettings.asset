@@ -164,7 +164,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.com.Unity.CreateWithVR.VRRoom
+    Android: com.com.Unity.CreateWithVR.Souptime
     Standalone: com.com.Aaron.CreateWithVR.Test-3-with-quest-support
   buildNumber:
     Standalone: 0
@@ -260,7 +260,7 @@ PlayerSettings:
   useCustomMainGradleTemplate: 0
   useCustomLauncherGradleManifest: 0
   useCustomBaseGradleTemplate: 0
-  useCustomGradlePropertiesTemplate: 1
+  useCustomGradlePropertiesTemplate: 0
   useCustomGradleSettingsTemplate: 0
   useCustomProguardFile: 0
   AndroidTargetArchitectures: 2

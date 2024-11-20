@@ -2,8 +2,8 @@ apply plugin: 'com.android.library'
 **APPLY_PLUGINS**
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-**DEPS**}
+    classpath 'com.android.tools.build:gradle:7.4.2'
+}
 
 android {
     ndkPath "**NDKPATH**"
