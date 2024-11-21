@@ -6,6 +6,13 @@ TagManager:
   tags:
   - SoupVat
   - Ground
+  - Orders
+  - Customer
+  - Box
+  - Trail
+  - Smash
+  - Pot
+  - Food
   layers:
   - Default
   - TransparentFX
@@ -14,6 +21,7 @@ TagManager:
   - Water
   - UI
   - Sliceable
+  - Cheese
   - 
   - 
   - 
@@ -26,8 +34,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Smashing
   - 
   - 
   - 
