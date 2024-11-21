@@ -13,6 +13,11 @@ TagManager:
   - Smash
   - Pot
   - Food
+  - brocolli
+  - cabbage
+  - carrot
+  - onion
+  - tomato
   layers:
   - Default
   - TransparentFX

@@ -4,23 +4,46 @@ using UnityEngine;
 
 public class DanteSlice : MonoBehaviour
 {
-    public GameObject prefabToSpawn;
+    public GameObject brocolli;
+    public GameObject cabbage;
+    public GameObject carrot;
+    public GameObject onion;
+    public GameObject tomato;
     public Transform spawnPoint;
-    [SerializeField] private string targetTag = "Food";
-        private void OnTriggerEnter(Collider other)
+    private string brocolliTag = "brocolli";
+    private string cabbageTag = "cabbage";
+    private string carrotTag = "carrot";
+    private string onionTag = "onion";
+    private string tomatoTag = "tomato";
+    private void OnTriggerEnter(Collider other)
         {
             GameObject collidedObject = other.gameObject;
             Transform collidedTransform = collidedObject.transform;
-            if (collidedObject.CompareTag(targetTag))
+            
+        if (collidedObject.CompareTag(brocolliTag))
                 {
-                
-                Debug.Log($"Collided with {collidedObject.name}, which has the tag: {targetTag}");
                 Destroy(collidedObject);
-                Instantiate(prefabToSpawn, spawnPoint.position, spawnPoint.rotation);
+                Instantiate(brocolli, spawnPoint.position, spawnPoint.rotation);
             }
-            else
-            {
-                Debug.Log($"Triggered by object with tag: {other.tag}, which is not {targetTag}");
-            }
+        if (collidedObject.CompareTag(cabbageTag))
+        {
+            Destroy(collidedObject);
+            Instantiate(cabbage, spawnPoint.position, spawnPoint.rotation);
         }
+        if (collidedObject.CompareTag(carrotTag))
+        {
+            Destroy(collidedObject);
+            Instantiate(carrot, spawnPoint.position, spawnPoint.rotation);
+        }
+        if (collidedObject.CompareTag(onionTag))
+        {
+            Destroy(collidedObject);
+            Instantiate(onion, spawnPoint.position, spawnPoint.rotation);
+        }
+        if (collidedObject.CompareTag(tomatoTag))
+        {
+            Destroy(collidedObject);
+            Instantiate(tomato, spawnPoint.position, spawnPoint.rotation);
+        }
+    }
 }

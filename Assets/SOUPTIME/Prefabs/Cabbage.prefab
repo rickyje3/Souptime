@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5049962939782854151}
   m_Layer: 0
   m_Name: Cabbage
-  m_TagString: Untagged
+  m_TagString: cabbage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
