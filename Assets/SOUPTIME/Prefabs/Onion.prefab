@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6717171479917314568}
   - component: {fileID: 8886042761567277713}
   - component: {fileID: 3061486074499844376}
-  - component: {fileID: 5543709077270536534}
   m_Layer: 0
   m_Name: Onion
   m_TagString: onion
@@ -84,18 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5543709077270536534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8284167739233414915}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e553ef8ac8a44b089b29f854f89e7cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetObject: {fileID: 1010797093108807151, guid: eecc33ccbebd2034d904f5fa106c6b3b,
-    type: 3}
-  newSize: {x: 1, y: 0.5, z: 1}
