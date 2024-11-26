@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2814109932948722037}
   - component: {fileID: 5541341106572295208}
   - component: {fileID: 5049962939782854151}
-  - component: {fileID: 5191248926272339972}
   m_Layer: 0
   m_Name: Cabbage
   m_TagString: cabbage
@@ -84,17 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5191248926272339972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2660801805827098073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e553ef8ac8a44b089b29f854f89e7cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetObject: {fileID: 0}
-  newSize: {x: 1, y: 0.5, z: 1}
