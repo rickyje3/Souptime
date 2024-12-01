@@ -23,27 +23,27 @@ public class DanteSlice : MonoBehaviour
         if (collidedObject.CompareTag(brocolliTag))
                 {
                 Destroy(collidedObject);
-                Instantiate(brocolli, spawnPoint.position, spawnPoint.rotation);
+                Instantiate(brocolli, collidedObject.transform.position, collidedObject.transform.rotation);
             }
         if (collidedObject.CompareTag(cabbageTag))
         {
             Destroy(collidedObject);
-            Instantiate(cabbage, spawnPoint.position, spawnPoint.rotation);
+            Instantiate(cabbage, collidedObject.transform.position, collidedObject.transform.rotation);
         }
         if (collidedObject.CompareTag(carrotTag))
         {
             Destroy(collidedObject);
-            Instantiate(carrot, spawnPoint.position, spawnPoint.rotation);
+            Instantiate(carrot, collidedObject.transform.position, collidedObject.transform.rotation);
         }
         if (collidedObject.CompareTag(onionTag))
         {
             Destroy(collidedObject);
-            Instantiate(onion, spawnPoint.position, spawnPoint.rotation);
+            Instantiate(onion, collidedObject.transform.position, collidedObject.transform.rotation);
         }
         if (collidedObject.CompareTag(tomatoTag))
         {
             Destroy(collidedObject);
-            Instantiate(tomato, spawnPoint.position, spawnPoint.rotation);
+            Instantiate(tomato, collidedObject.transform.position, collidedObject.transform.rotation);
         }
     }
 }
