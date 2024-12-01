@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2413844281661633691}
   m_Layer: 0
   m_Name: Sliced Cabbage
-  m_TagString: green
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

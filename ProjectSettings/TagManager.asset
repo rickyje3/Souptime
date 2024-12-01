@@ -18,10 +18,6 @@ TagManager:
   - carrot
   - onion
   - tomato
-  - Red
-  - healthy
-  - green
-  - yellow
   layers:
   - Default
   - TransparentFX

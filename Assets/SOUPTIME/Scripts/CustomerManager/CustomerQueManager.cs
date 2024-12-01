@@ -45,8 +45,6 @@ public class CustomerQueueManager : MonoBehaviour
 
             // Update the positions of the remaining customers
             UpdateQueuePositions();
-
-            Debug.Log("Customer served");
         }
         else
         {

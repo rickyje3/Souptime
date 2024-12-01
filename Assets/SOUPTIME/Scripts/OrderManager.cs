@@ -72,7 +72,7 @@ public class OrderManager : MonoBehaviour
         {
             if (!playerSelectedTags.Contains(tag))
             {
-                orderCompleted = true;
+                orderCompleted = false;
                 break;
             }
         }
@@ -81,7 +81,6 @@ public class OrderManager : MonoBehaviour
         {
             feedbackText.text = "Order Completed!"; // Display success message
             Invoke("GenerateNewOrder", 2.0f); // Generate a new order after a delay
-            GenerateNewOrder();
         }
         else
         {
