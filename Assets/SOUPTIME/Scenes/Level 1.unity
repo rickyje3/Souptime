@@ -17988,7 +17988,7 @@ GameObject:
   - component: {fileID: 723263223}
   - component: {fileID: 723263222}
   m_Layer: 0
-  m_Name: Level 3
+  m_Name: Level Three
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18079,7 +18079,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level 3
+          m_StringArgument: Level3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &723263224
@@ -32734,7 +32734,7 @@ GameObject:
   - component: {fileID: 1315886638}
   - component: {fileID: 1315886637}
   m_Layer: 0
-  m_Name: Level 5
+  m_Name: Level Five
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32825,7 +32825,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level 5
+          m_StringArgument: Level5
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1315886639
@@ -36690,7 +36690,7 @@ GameObject:
   - component: {fileID: 1557693773}
   - component: {fileID: 1557693772}
   m_Layer: 0
-  m_Name: Level 1
+  m_Name: Level One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36781,7 +36781,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level 1
+          m_StringArgument: Level1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1557693774
@@ -37764,7 +37764,7 @@ GameObject:
   - component: {fileID: 1579411115}
   - component: {fileID: 1579411114}
   m_Layer: 0
-  m_Name: Level 2
+  m_Name: Level Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37855,7 +37855,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level 2
+          m_StringArgument: Level2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1579411116
@@ -43686,7 +43686,7 @@ GameObject:
   - component: {fileID: 1948811663}
   - component: {fileID: 1948811662}
   m_Layer: 0
-  m_Name: Level 4
+  m_Name: Level Four
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43777,7 +43777,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level 4
+          m_StringArgument: Level4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1948811664
